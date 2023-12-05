@@ -3,7 +3,7 @@ body{
     padding: 0;
 }
 .landing-page-image {
-    background-image: url('../../../assets/Fondo\ Pokemon.jpg');
+    background-image: url('https://i.postimg.cc/zff0yjcq/Fondo-Pokemon.jpg');
     background-size: cover;
     background-position: top;
     height: 100vh; 

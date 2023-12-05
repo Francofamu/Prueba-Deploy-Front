@@ -1,0 +1,22 @@
+.cards-container {
+    display: grid;
+    padding: 35px 50px;
+    grid-template-columns: repeat (4, 1fr);
+    grid-gap: 20px;
+    border-radius: 10px;
+    border: none;
+}
+
+/* Estilos para pantallas medianas y más grandes */
+@media (min-width: 768px) {
+    .cards-container {
+        grid-template-columns: repeat(4, 1fr); /* Cambia a 4 columnas por fila */
+    }
+}
+
+/* Estilos para pantallas grandes */
+@media (min-width: 1200px) {
+    .cards-container {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}

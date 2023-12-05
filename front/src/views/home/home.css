@@ -1,0 +1,13 @@
+body{
+    background-color: rgb(202, 202, 202);
+}
+
+.home {
+    margin: 5px 5%;
+}
+
+.pokeball-loader{
+    text-align: center;
+    margin: 0 40%;
+    height: 200px;
+}

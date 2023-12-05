@@ -1,0 +1,40 @@
+.navbar {
+	background-color: transparent;
+	padding: 10px;
+  }
+  
+  .wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+  }
+  
+  .container-navbar {
+	display: grid;
+	gap: 10px;
+	align-items: center;
+  }
+  
+  .searchbar-navbar {
+	flex-grow: 1;
+  }
+  
+  form {
+	display: flex;
+	gap: 10px;
+  }
+  
+  select {
+	background-color: rgba(200, 200, 200, 0.5);
+	border: none;
+	border-radius: 5px;
+	padding: 5px;
+  }
+  
+  /* Nuevos estilos para los botones */
+  form select {
+	margin-right: 5px;
+  }
+  
+  /* Ajustar otros estilos según sea necesario */
+  
